@@ -1,0 +1,7 @@
+.profile__info-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 336px;
+    height: 73px;
+}
