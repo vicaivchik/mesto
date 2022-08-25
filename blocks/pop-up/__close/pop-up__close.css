@@ -7,14 +7,10 @@
     height: 32px;
     background-position: center;
     background-repeat: no-repeat;
-    border: none;
-    background-color: transparent;
     background-size: cover;
-    cursor: pointer;
 }
 
 .pop-up__close:hover {
-    cursor: pointer;
     opacity: .6;
 }
 

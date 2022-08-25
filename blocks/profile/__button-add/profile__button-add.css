@@ -7,13 +7,11 @@
     border-radius: 2px;
     background-image: url(../../../images/profile-add.svg);
     background-position: center;
-    background-color: transparent;
     background-repeat: no-repeat;
     justify-self: flex-end;
 }
 
 .profile__button-add:hover {
-    cursor: pointer;
     opacity: .6;
 }
 
@@ -21,6 +19,7 @@
     .profile__button-add {
         height: 50px;
         width: 282px;
-        margin-top: 36px;
+        margin-top: 33px;
+        background-size: 16px 16px;
     }
 }

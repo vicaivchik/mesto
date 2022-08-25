@@ -4,13 +4,12 @@
     margin-left: 18px;
     margin-top: 14px;
     border: 1px solid #ffffff;
-    background-image: url(../../../images/Edit\ Button.svg);
+    background-image: url(../../../images/Vectoredit.svg);
     background-position: center;
-    background-color: transparent;
+    background-repeat: no-repeat;
 }
 
 .profile__button-edit:hover {
-    cursor: pointer;
     opacity: .6;
 }
 
@@ -20,5 +19,6 @@
         width: 18px;
         height: 18px;
         margin-top: 8px;
+        background-size: 7px 7px;
     }
 }

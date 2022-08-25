@@ -12,7 +12,6 @@
 }
 
 .pop-up__save:hover {
-    cursor: pointer;
     background-color: rgb(0 0 0 / 80%);
 }
 

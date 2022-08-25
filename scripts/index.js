@@ -1,4 +1,4 @@
-const likes = document.querySelectorAll('.card__like');
+/*const likes = document.querySelectorAll('.card__like');
 
 for (let i = 0; i < likes.length; i++) {
     likes[i].addEventListener('click', toggleLike);
@@ -6,11 +6,11 @@ for (let i = 0; i < likes.length; i++) {
 
 function toggleLike(event) {
     event.target.classList.toggle('card__like_active');
-}
+}*/
 
 const buttonEdit = document.querySelector('.profile__button-edit');
-
-buttonEdit.addEventListener('click', editProfile);
+const popUp = document.querySelector('.pop-up');
+const popUpClose = document.querySelector('.pop-up__close');
 
 function editProfile() {
     const name = document.querySelector('.profile__name').textContent;
@@ -22,19 +22,15 @@ function editProfile() {
     nameInput.value = name;
     workInput.value = work;
 
-    const popUp = document.querySelector('.pop-up');
     popUp.classList.add('pop-up_opened');
 }
 
-const popUpClose = document.querySelector('.pop-up__close');
-
-popUpClose.addEventListener('click', closePopup);
-
 function closePopup() {
-    const popUp = document.querySelector('.pop-up');
     popUp.classList.remove('pop-up_opened');
 }
 
+buttonEdit.addEventListener('click', editProfile);
+popUpClose.addEventListener('click', closePopup);
 
 // Находим форму в DOM
 const formElement = document.querySelector('.pop-up__form');

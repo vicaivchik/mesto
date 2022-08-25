@@ -1,4 +1,5 @@
 .pop-up__input {
+    margin-top: 17px;
     outline: none;
     height: 40px;
     line-height: 17px;
@@ -11,8 +12,11 @@
     border-bottom: 1px solid rgb(0 0 0 / 20%);
 }
 
+.pop-up__input:first-child {
+    margin-top: 41px;
+}
+
 .pop-up__input::placeholder {
     font-weight: 400;
     font-size: 14px;
-    color: #000000;
 }
